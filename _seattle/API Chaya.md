@@ -4,9 +4,10 @@ categories:
   - Private Counseling
   - Support Groups
   - Legal Aid
-confidential: false
-free: false
-translation: true
+considerations:
+  - confidential
+  - free
+  - translation available
 ---
 - **Description:** Anti-domestic violence agency serving the greater Seattle area.
 - **Population served:** Serves all Asian, South Asian, and Pacific Islander communities.

@@ -2,8 +2,9 @@
 layout: default
 ---
 <div class="filters">
-  <p>Choose any of the following subcategories to find <strong>all</strong> resources within any category:</p>
-  <button type="button" id="legal" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Legal</button>
+  <p>What kinds of resource(s) are you looking for? Select all that apply:</p>
+  <button type="button" id="legal-aid" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Legal Aid</button>
+  <button type="button" id="documentation" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Documentation</button>
   <button type="button" id="medical" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Medical</button>
   <button type="button" id="housing" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Housing</button>
   <button type="button" id="food" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Food</button>
@@ -12,20 +13,21 @@ layout: default
   <button type="button" id="job-help" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Job Help</button>
   <button type="button" id="education" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Education</button>
   <button type="button" id="community-support" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Community Support</button>
-  <button type="button" id="counseling" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Counseling</button>
+  <button type="button" id="private-counseling" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Private Counseling</button>
+  <button type="button" id="support-groups" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Support Groups</button>
   <button type="button" id="mail" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Mail</button>
   <button type="button" id="entertainment-and-sports" class="btn-category btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Entertainment & Sports</button>
 
-  <p><br>Choose any of the following to show <strong>only</strong> those resources with the following considerations:</p>
+  <p><br>What additional features are important to you? Select all that apply:</p>
   <button type="button" id="confidential" class="btn-filter btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Confidential</button>
   <button type="button" id="free" class="btn-filter btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Free</button>
-  <button type="button" id="translation" class="btn-filter btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Language Translation Available</button>
+  <button type="button" id="translation-available" class="btn-filter btn btn-labeled btn-default" data-toggle="button"><span class="btn-label"></span>Language Translation Available</button>
 </div>
 
 <div class="catalog">
 
   {% for resource in site.seattle %}
-    <div class="resource{% for category in resource.categories %} {{ category | downcase | replace: ' ', '-' }}{% endfor %}">
+    <div class="resource{% for category in resource.categories %} {{ category | downcase | replace: ' ', '-' }}{% endfor %}{% for consideration in resource.considerations %} {{ consideration | downcase | replace: ' ', '-' }}{% endfor %}">
       <header class="resource-header">
         <h2 class="resource-name">{{ resource.name }}</h2>
       </header>

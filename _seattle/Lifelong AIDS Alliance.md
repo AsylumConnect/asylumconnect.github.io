@@ -1,14 +1,14 @@
 ---
 name: Lifelong AIDS Alliance
 categories:
-  - Dental
+  - Dental Care
   - Sexual Health
   - Food
   - Housing
   - Private Counseling
-confidential: false
-free: false
-translation: false
+considerations:
+  - confidential
+  - translation available
 ---
 - **Description:** The Lifelong Dental Program (LDP) is a newly established, comprehensive oral health access program for low-income individuals living with HIV/AIDS who reside in King, Island, and Snohomish Counties.
 - **Population Served:** To be eligible for the program, clients must:
