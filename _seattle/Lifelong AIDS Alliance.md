@@ -6,9 +6,12 @@ categories:
   - Food
   - Housing
   - Private Counseling
+supercategories:
+  - Medical
+  - Counseling
 considerations:
   - confidential
-  - translation available
+  - translation
 ---
 - **Description:** The Lifelong Dental Program (LDP) is a newly established, comprehensive oral health access program for low-income individuals living with HIV/AIDS who reside in King, Island, and Snohomish Counties.
 - **Population Served:** To be eligible for the program, clients must:

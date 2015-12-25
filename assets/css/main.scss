@@ -94,7 +94,16 @@ $on-laptop:        800px;
   color: #744c29;
 }
 
-
 .dropdown-menu input[type=checkbox] {
   margin-right: .5em;
+}
+
+/** RESOURCE DESCRIPTIONS **/
+
+.resource {
+  display: none;
+}
+
+.resource-content {
+  display: none;
 }

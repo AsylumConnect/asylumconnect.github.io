@@ -1,5 +1,6 @@
 ---
 layout: default
+categories: [housing, food, hygiene, computers, employment, mail, recreation]
 ---
 <div class="filters">
   <p>What kinds of resource(s) are you looking for? Select all that apply:</p>
@@ -54,11 +55,10 @@ layout: default
   <p><br>What additional features are important to you? Select all that apply:</p>
   <button type="button" id="confidential" class="btn-filter btn btn-default" data-toggle="button"><span class="icon-confidential btn-icon"></span>Confidential</button>
   <button type="button" id="free" class="btn-filter btn btn-default" data-toggle="button"><span class="icon-free btn-icon"></span>Free</button>
-  <button type="button" id="translation-available" class="btn-filter btn btn-default" data-toggle="button"><span class="icon-translation btn-icon"></span>Language Translation Available</button>
+  <button type="button" id="translation" class="btn-filter btn btn-default" data-toggle="button"><span class="icon-translation btn-icon"></span>Language Translation Available</button>
 </div>
 
 <div class="catalog">
-
   {% for resource in site.seattle %}
   <div class="resource{% for category in resource.categories %} {{ category | downcase | replace: ' ', '-' }}{% endfor %}{% for consideration in resource.considerations %} {{ consideration | downcase | replace: ' ', '-' }}{% endfor %}">
     <header class="resource-header">
@@ -68,6 +68,21 @@ layout: default
     <article class="resource-content">
       {{ resource.content }}
     </article>
+
+    {% for group in resource.supercategories %}
+    <span class="icon-{{ group | downcase | replace: ' ', '-' }} btn-icon"></span>
+    {% endfor %}
+
+    {% for category in resource.categories %}
+    {% assign subcategory = category | downcase | replace: ' ', '-' %}
+    {% if page.categories contains subcategory %}
+    <span class="icon-{{ subcategory }} btn-icon"></span>
+    {% endif %}
+    {% endfor %}
+
+    {% for consideration in resource.considerations %}
+    <span class="icon-{{ consideration | downcase | replace: ' ', '-' }} btn-icon"></span>
+    {% endfor %}
   </div>
   {% endfor %}
 

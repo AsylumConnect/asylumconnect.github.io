@@ -19,11 +19,17 @@ var buttonClick = function (button, list) {
 
 var displayResources = function() {
   $('.resource').hide(); // hide all resources
+  var areSelectedCategories = categories.length > 0;
+
   var toDisplay = $('.resource' + filters.join(''));
-  if (categories.length > 0) {
+
+  if (areSelectedCategories) {
     toDisplay = toDisplay.filter(categories.join(', '));
   }
-  toDisplay.show(); // shows appropriate resources e.g., $('.resource.translation').filter('.dental-care, .hygiene')')
+
+  if (areSelectedCategories || filters.length > 0) {
+    toDisplay.show(); // shows appropriate resources e.g., $('.resource.translation').filter('.dental-care, .hygiene')')
+  }
 }
 
 $(document).ready(function(){

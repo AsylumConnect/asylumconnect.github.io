@@ -5,6 +5,8 @@ categories:
   - Food
   - Hygiene
   - Private Counseling
+supercategories:
+  - Counseling
 considerations:
   - free
 address: 901 Rainier Ave S, Seattle, WA 98144

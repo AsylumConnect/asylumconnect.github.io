@@ -4,10 +4,13 @@ categories:
   - Private Counseling
   - Support Groups
   - Legal Aid
+supercategories:
+  - Legal
+  - Counseling
 considerations:
   - confidential
   - free
-  - translation available
+  - translation
 ---
 - **Description:** Anti-domestic violence agency serving the greater Seattle area.
 - **Population served:** Serves all Asian, South Asian, and Pacific Islander communities.
