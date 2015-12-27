@@ -29,16 +29,43 @@ var displayResources = function() {
     }
 
     toDisplay.addClass("active"); // shows appropriate resources e.g., $('.resource.translation').filter('.dental-care, .hygiene')')
+    displayResourcesOnMap(toDisplay);
   }
 }
 
+var geocoder;
 var map;
+
+var displayResourcesOnMap = function(toDisplay) {
+  // loop through and plot all map points
+  toDisplay.find('.map-point').each(function() {
+    var that = $(this);
+    var address = that.attr('address');
+    geocoder.geocode({'address' : address}, function(results, status) {
+      if (status === google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+          map: map,
+          position: results[0].geometry.location
+        });
+
+        var infoWindow = new google.maps.InfoWindow({
+          content: that.html()
+        });
+
+        google.maps.event.addListener(marker, 'click', function(){
+          infoWindow.open(map, marker);
+        });
+      }
+    });
+  });
+}
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 47.608, lng: -122.335},
-    zoom: 9
+    zoom: 11
   });
+  geocoder = new google.maps.Geocoder();
 }
 
 $(document).ready(function(){
