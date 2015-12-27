@@ -6,11 +6,12 @@ categories:
   - Legal Aid
 supercategories:
   - Legal
-  - Counseling
-considerations:
+  - Mental Health
+features:
   - confidential
   - free
   - translation
+website: http://www.apichaya.org
 ---
 - **Description:** Anti-domestic violence agency serving the greater Seattle area.
 - **Population served:** Serves all Asian, South Asian, and Pacific Islander communities.

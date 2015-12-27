@@ -8,10 +8,11 @@ categories:
   - Private Counseling
 supercategories:
   - Medical
-  - Counseling
-considerations:
+  - Mental Health
+features:
   - confidential
   - translation
+website: http://www.llaa.org/services/lifelong-dental-program
 ---
 - **Description:** The Lifelong Dental Program (LDP) is a newly established, comprehensive oral health access program for low-income individuals living with HIV/AIDS who reside in King, Island, and Snohomish Counties.
 - **Population Served:** To be eligible for the program, clients must:

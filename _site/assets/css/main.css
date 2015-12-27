@@ -488,7 +488,7 @@ pre {
 .icon-community {
   color: #3bbfef; }
 
-.icon-counseling {
+.icon-mental-health {
   color: #5b54a4; }
 
 .icon-mail {
@@ -509,6 +509,8 @@ pre {
   padding-right: .25em;
   padding-left: .15em;
   vertical-align: middle; }
+  .btn-icon.small {
+    font-size: 1.5em; }
 
 /** RESOURCE DESCRIPTIONS **/
 .disclaimer {
@@ -539,6 +541,9 @@ pre {
 
 .resource-name {
   display: inline-block; }
+
+.mapping {
+  display: none; }
 
 /** MAP **/
 #map {

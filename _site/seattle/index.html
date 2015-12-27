@@ -52,7 +52,6 @@
       <li><a href="#"><label><input type="checkbox" id="womens-health"/>Women's Health</label></a></li>
       <li><a href="#"><label><input type="checkbox" id="sexual-health"/>Sexual Health</label></a></li>
       <li><a href="#"><label><input type="checkbox" id="trans-health"/>Trans Health</label></a></li>
-      <li><a href="#"><label><input type="checkbox" id="psychiatry"/>Psychiatry</label></a></li>
       <li><a href="#"><label><input type="checkbox" id="dental-care"/>Dental Care</label></a></li>
     </ul>
   </div>
@@ -84,10 +83,11 @@
     </ul>
   </div>
   <div class="btn-group">
-    <button type="button" id="counseling" class="btn-category-group btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="icon-counseling btn-icon"></span>Counseling<span class="fa fa-angle-down"></span></button>
+    <button type="button" id="mental-health" class="btn-category-group btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="icon-mental-health btn-icon"></span>Mental Health<span class="fa fa-angle-down"></span></button>
     <ul class="dropdown-menu">
-      <li><a href="#"><label><input type="checkbox" id="private-counseling"/>Private Counseling</label></a></li>
       <li><a href="#"><label><input type="checkbox" id="support-groups"/>Support Groups</label></a></li>
+      <li><a href="#"><label><input type="checkbox" id="private-counseling"/>Private Counseling</label></a></li>
+      <li><a href="#"><label><input type="checkbox" id="psychiatry"/>Psychiatry</label></a></li>
     </ul>
   </div>
   <button type="button" id="mail" class="btn-category btn btn-default" data-toggle="button"><span class="icon-mail btn-icon"></span>Mail</button>
@@ -108,7 +108,7 @@
     
     <div class="resource private-counseling support-groups legal-aid confidential free translation">
       <header class="resource-header">
-        <h3 class="resource-name">API Chaya</h2>
+        <h3 class="resource-name" id="api-chaya">API Chaya</h2>
         </header>
 
         <article class="resource-content">
@@ -137,7 +137,7 @@
         
         <span class="icon-legal btn-icon"></span>
         
-        <span class="icon-counseling btn-icon"></span>
+        <span class="icon-mental-health btn-icon"></span>
         
 
         
@@ -158,18 +158,22 @@
         
         <span class="icon-translation btn-icon"></span>
         
+
+        <!-- Google Maps -->
+        
+
       </div>
       
     <div class="resource hygiene mail free">
       <header class="resource-header">
-        <h3 class="resource-name">Compass Housing Alliance</h2>
+        <h3 class="resource-name" id="compass-housing-alliance">Compass Housing Alliance</h2>
         </header>
 
         <article class="resource-content">
           <ul>
   <li><strong>Description:</strong> Provides mail, banking services, restrooms, showers and laundry for homeless and low-income adults.</li>
   <li><strong>Population Served:</strong> Homeless and low-income adults</li>
-  <li><strong>Address:</strong> 901 Rainier Ave S, Seattle, WA 98144</li>
+  <li><strong>Address:</strong> 77 S Washington St, Seattle, WA 98104</li>
   <li><strong>Hours:</strong>
     <ul>
       <li>Hygiene Center open Monday-Friday 7 am – 2:30 pm</li>
@@ -200,11 +204,38 @@
         
         <span class="icon-free btn-icon"></span>
         
+
+        <!-- Google Maps -->
+        
+        <div class="mapping">
+          <div class="map-point" address="77 S Washington St, Seattle, WA 98104">
+            <p><b><a href="http://www.compasshousingalliance.org/what-we-do-top/day-services/">Compass Housing Alliance</a></b></p>
+            <p>77 S Washington St, Seattle, WA 98104</p>
+            
+            
+            
+            <span class="icon-hygiene btn-icon small"></span>
+            
+            
+            
+            
+            <span class="icon-mail btn-icon small"></span>
+            
+            
+
+            
+            <span class="icon-free btn-icon small"></span>
+            
+            <p><a href="#compass-housing-alliance">See More Info</a></p>
+          </div>
+        </div>
+        
+
       </div>
       
     <div class="resource dental-care sexual-health food housing private-counseling confidential translation">
       <header class="resource-header">
-        <h3 class="resource-name">Lifelong AIDS Alliance</h2>
+        <h3 class="resource-name" id="lifelong-aids-alliance">Lifelong AIDS Alliance</h2>
         </header>
 
         <article class="resource-content">
@@ -232,7 +263,7 @@ Application available online <a href="http://www.llaa.org/sites/default/files/at
         
         <span class="icon-medical btn-icon"></span>
         
-        <span class="icon-counseling btn-icon"></span>
+        <span class="icon-mental-health btn-icon"></span>
         
 
         
@@ -261,11 +292,15 @@ Application available online <a href="http://www.llaa.org/sites/default/files/at
         
         <span class="icon-translation btn-icon"></span>
         
+
+        <!-- Google Maps -->
+        
+
       </div>
       
     <div class="resource housing food hygiene private-counseling free">
       <header class="resource-header">
-        <h3 class="resource-name">Peter's Place (Compass Housing Alliance)</h2>
+        <h3 class="resource-name" id="peter's-place-(compass-housing-alliance)">Peter's Place (Compass Housing Alliance)</h2>
         </header>
 
         <article class="resource-content">
@@ -282,7 +317,7 @@ Application available online <a href="http://www.llaa.org/sites/default/files/at
         </article>
 
         
-        <span class="icon-counseling btn-icon"></span>
+        <span class="icon-mental-health btn-icon"></span>
         
 
         
@@ -308,6 +343,41 @@ Application available online <a href="http://www.llaa.org/sites/default/files/at
         
         <span class="icon-free btn-icon"></span>
         
+
+        <!-- Google Maps -->
+        
+        <div class="mapping">
+          <div class="map-point" address="901 Rainier Ave S, Seattle, WA 98144">
+            <p><b><a href="http://www.compasscenter.org/what-we-do-top/day-services/peters-place/">Peter's Place (Compass Housing Alliance)</a></b></p>
+            <p>901 Rainier Ave S, Seattle, WA 98144</p>
+            
+            
+            
+            <span class="icon-housing btn-icon small"></span>
+            
+            
+            
+            
+            <span class="icon-food btn-icon small"></span>
+            
+            
+            
+            
+            <span class="icon-hygiene btn-icon small"></span>
+            
+            
+            
+            
+            
+
+            
+            <span class="icon-free btn-icon small"></span>
+            
+            <p><a href="#peter's-place-(compass-housing-alliance)">See More Info</a></p>
+          </div>
+        </div>
+        
+
       </div>
       
     </div>

@@ -3,13 +3,14 @@ name: Compass Housing Alliance
 categories:
   - Hygiene
   - Mail
-considerations:
+features:
   - free
 address: 77 S Washington St, Seattle, WA 98104
+website: http://www.compasshousingalliance.org/what-we-do-top/day-services/
 ---
 - **Description:** Provides mail, banking services, restrooms, showers and laundry for homeless and low-income adults.
 - **Population Served:** Homeless and low-income adults
-- **Address:** 901 Rainier Ave S, Seattle, WA 98144
+- **Address:** 77 S Washington St, Seattle, WA 98104
 - **Hours:**
   - Hygiene Center open Monday-Friday 7 am – 2:30 pm
   - Client Services Office open Monday-Friday 9 am – 4 pm

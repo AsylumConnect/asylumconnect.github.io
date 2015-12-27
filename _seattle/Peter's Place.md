@@ -6,10 +6,11 @@ categories:
   - Hygiene
   - Private Counseling
 supercategories:
-  - Counseling
-considerations:
+  - Mental Health
+features:
   - free
 address: 901 Rainier Ave S, Seattle, WA 98144
+website: http://www.compasscenter.org/what-we-do-top/day-services/peters-place/
 ---
 - **Description:** A welcoming space for homeless adults, offering hot coffee and meals, showers, laundry and case management.
 - **Population Served:** Homeless adults
