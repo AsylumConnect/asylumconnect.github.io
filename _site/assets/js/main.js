@@ -19,6 +19,7 @@ var buttonClick = function (button, list) {
 
 var displayResources = function() {
   $('.resource').removeClass("active"); // hide all resources
+  hideAllMapPoints();
   var areSelectedCategories = categories.length > 0;
 
   if (areSelectedCategories || features.length > 0) {
@@ -29,34 +30,30 @@ var displayResources = function() {
     }
 
     toDisplay.addClass("active"); // shows appropriate resources e.g., $('.resource.translation').filter('.dental-care, .hygiene')')
-    displayResourcesOnMap(toDisplay);
+    displaySelectedMapPoints(toDisplay);
   }
 }
 
 var geocoder;
 var map;
+var markers = [];
+var visibleMarkers = [];
+var infoWindow;
 
-var displayResourcesOnMap = function(toDisplay) {
-  // loop through and plot all map points
+
+var hideAllMapPoints = function() {
+  infoWindow.close();
+  for (var key in markers) {
+    if (markers.hasOwnProperty(key)) {
+      markers[key].setVisible(false);
+    }
+  }
+}
+
+var displaySelectedMapPoints = function(toDisplay) {
   toDisplay.find('.map-point').each(function() {
-    var that = $(this);
-    var address = that.attr('address');
-    geocoder.geocode({'address' : address}, function(results, status) {
-      if (status === google.maps.GeocoderStatus.OK) {
-        var marker = new google.maps.Marker({
-          map: map,
-          position: results[0].geometry.location
-        });
-
-        var infoWindow = new google.maps.InfoWindow({
-          content: that.html()
-        });
-
-        google.maps.event.addListener(marker, 'click', function(){
-          infoWindow.open(map, marker);
-        });
-      }
-    });
+      var address = $(this).attr('address');
+      markers[address].setVisible(true);
   });
 }
 
@@ -66,6 +63,29 @@ function initMap() {
     zoom: 11
   });
   geocoder = new google.maps.Geocoder();
+  infoWindow = new google.maps.InfoWindow({});
+
+  // loop through and plot all map points
+  $('.map-point').each(function() {
+    var that = $(this);
+    var address = that.attr('address');
+    geocoder.geocode({'address' : address}, function(results, status) {
+      if (status === google.maps.GeocoderStatus.OK) {
+        var marker = new google.maps.Marker({
+          map: map,
+          position: results[0].geometry.location
+        });
+
+        google.maps.event.addListener(marker, 'click', function(){
+          infoWindow.setContent(that.html());
+          infoWindow.open(map, marker);
+        });
+
+        markers[address] = marker;
+        markers[address].setVisible(false);
+      }
+    });
+  });
 }
 
 $(document).ready(function(){
