@@ -525,7 +525,9 @@ pre {
   margin-right: 0; }
 
 .main.col-md-7 {
-  float: right; }
+  float: right;
+  padding-left: 2em;
+  margin-top: 3em; }
 
 .resource {
   display: none;
