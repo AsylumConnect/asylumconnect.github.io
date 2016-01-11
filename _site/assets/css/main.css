@@ -524,9 +524,8 @@ pre {
   margin-left: 0;
   margin-right: 0; }
 
-.catalog.col-md-6 {
-  padding-right: 2em;
-  padding-left: 0; }
+.main.col-md-7 {
+  float: right; }
 
 .resource {
   display: none;
@@ -547,6 +546,14 @@ pre {
   display: none; }
 
 /** MAP **/
+.map {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 41.5%; }
+
 #map {
-  margin-top: 2em;
-  height: 700px; }
+  height: 100%;
+  width: 100%; }
