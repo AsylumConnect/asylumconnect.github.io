@@ -70,17 +70,6 @@ $on-laptop:        800px;
     margin-bottom: .3em;
     padding: 3px 10px;
   }
-  // &.affix {
-  //   top: 0;
-  //   left: 0;
-  //   background: white;
-  //   padding: 1em 1em .5em;
-  //   z-index: 1;
-  //
-  //   #location-query, #category-query, #feature-query {
-  //     display: none;
-  //   }
-  // }
 }
 
 .icon-medical {
@@ -158,6 +147,8 @@ $on-laptop:        800px;
 
 .main.col-md-7 {
     float: right;
+    padding-left: 2em;
+    margin-top: 3em;
 }
 
 .resource {
