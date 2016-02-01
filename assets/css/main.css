@@ -255,9 +255,6 @@ pre {
 /**
  * Page content
  */
-.page-content {
-  padding: 30px 0; }
-
 .page-heading {
   font-size: 20px; }
 
@@ -297,12 +294,12 @@ pre {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
-    font-size: 26px; }
+    font-size: 22px; }
     @media screen and (max-width: 800px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
-    font-size: 20px; }
+    font-size: 18px; }
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
@@ -447,6 +444,13 @@ pre {
     color: #099; }
 
 /** FILTERS **/
+h3 {
+  font-size: 20px;
+  font-weight: 300; }
+
+h4 {
+  font-size: 16px; }
+
 .filters {
   text-align: center; }
   .filters h3, .filters h4 {
@@ -526,8 +530,21 @@ pre {
 
 .main.col-md-7 {
   float: right;
-  padding-left: 2em;
-  margin-top: 3em; }
+  padding-left: 2em; }
+
+.main .header {
+  padding-top: 20px; }
+  .main .header #logo {
+    display: inline-block; }
+  .main .header #links {
+    display: inline-block;
+    letter-spacing: 2px;
+    text-align: right;
+    float: right;
+    margin-top: 50px; }
+    .main .header #links a {
+      padding: .75em 1em;
+      text-decoration: none; }
 
 .resource {
   display: none;
@@ -553,7 +570,6 @@ pre {
   left: 0;
   top: 0;
   bottom: 0;
-  height: 100%;
   width: 41.5%; }
 
 #map {
