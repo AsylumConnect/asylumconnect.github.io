@@ -161,9 +161,9 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
+// .page-content {
+//     padding: $spacing-unit 0;
+// }
 
 .page-heading {
     font-size: 20px;
@@ -219,7 +219,7 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 22px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -227,7 +227,7 @@
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 18px;
 
         @include media-query($on-laptop) {
             font-size: 18px;
