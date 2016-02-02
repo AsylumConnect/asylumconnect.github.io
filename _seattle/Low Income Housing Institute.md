@@ -11,7 +11,7 @@ features:
   - free
 ---
 - **Description:** The Low Income Housing Institute provides housing and hygiene services for the low-income and homeless of Washington state.
-- **Population served:** Adults of all genders and orientations. 
+- **Population served:** Adults of all genders and orientations, ages 18+.
 - **Address:** 2407 1st Ave Seattle WA 98121
    - Urban Rest Stop Hygiene Centers
      - 1924 9th Ave. Seattle, WA 98101
