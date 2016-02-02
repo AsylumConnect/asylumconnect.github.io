@@ -14,7 +14,7 @@ features:
 website: http://www.apichaya.org
 ---
 - **Description:** API Chaya is an anti-domestic violence agency serving the greater Seattle area.
-- **Population served:** Asian, South Asian, and Pacific Islander communities.
+- **Population served:** Asian, South Asian, and Pacific Islander communities, ages 13+.
 - **Mailing Address:** API Chaya, P.O. Box 14047, Seattle, WA 98114
 - **Location:** Confidential. Call helpline or toll free number listed below to get location.
 - **Phone Number(s):**
