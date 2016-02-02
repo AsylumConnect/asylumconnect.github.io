@@ -16,7 +16,7 @@ features:
   - free
 ---
 - **Description:** Lambert House is a center for Gay, Lesbian, Bisexual, Transgender and Questioning youth that empowers youth through the development of leadership, social and life skills.
-- **Population served:** LGBTQ youth
+- **Population served:** LGBTQ youth, 21 and under.
 - **Address:** 1818 15th Ave on Capitol Hill in Seattle (between E Howell & E Denny Way)
 - **Hours:** Mon-Fri 4:00pm-9:30pm
 - **Phone Number:** 206-322-2515 ext. 811
