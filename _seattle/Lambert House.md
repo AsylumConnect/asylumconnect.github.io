@@ -21,5 +21,5 @@ features:
 - **Hours:** Mon-Fri 4:00pm-9:30pm
 - **Phone Number:** 206-322-2515 ext. 811
 - **Email:** ken@lamberthouse.org
-- **Website:** http://www.lamberthouse.org/index.html
-- **Additional Information:** Some client information may be shared with the parents of underage clients. Some activities require parental consent. 
+- **Website:** <http://www.lamberthouse.org/index.html>
+- **Additional Information:** Some client information may be shared with the parents of underage clients. Some activities require parental consent.

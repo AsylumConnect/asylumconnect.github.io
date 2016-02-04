@@ -16,9 +16,9 @@ features:
   - free
   - translation
 ---
-- **Description:** El Centro de la Raza is a Latino community organization striving to build unity across all racial and economic sectors, to organize, empower, and defend. 
+- **Description:** El Centro de la Raza is a Latino community organization striving to build unity across all racial and economic sectors, to organize, empower, and defend.
 - **Population served:** All welcome.
 - **Address:** 2524 16th Avenue S, Seattle, Washington 98144
 - **Phone Number:** 206-957-4634
-- **Website:** http://www.elcentrodelaraza.org/
-- **Non-English Services Available:** Spanish 
+- **Website:** <http://www.elcentrodelaraza.org/>
+- **Non-English Services Available:** Spanish

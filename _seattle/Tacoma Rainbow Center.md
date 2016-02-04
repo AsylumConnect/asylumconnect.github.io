@@ -11,9 +11,9 @@ features:
   - free
 ---
 - **Description:** Through education, advocacy, and celebration, the Rainbow Center expands resources and safe space for the LGBTQ community.
-- **Population served:** LGBTQ individuals of all ages. 
+- **Population served:** LGBTQ individuals of all ages.
 - **Address:** 2215 Pacific Avenue, Tacoma, WA 98402
-- **Hours:** Mon., Tues., Thurs. & Fri.: 1p. - 5pm, Wed: 1pm - 7pm. 
+- **Hours:** Mon, Tues, Thurs & Fri: 1pm - 5pm. Wed: 1pm - 7pm.
 - **Phone Number:**  253-383-2318
 - **Email:** info@rainbowcntr.org
-- **Website:** http://www.rainbowcntr.org/
+- **Website:** <http://www.rainbowcntr.org/>

@@ -24,5 +24,5 @@ features:
      - 2014 NW 57th Street, Mon-Fri 6:30am-2:30pm, last laundry at 12pm, last shower at 1:30pm.
 - **Phone Number:** 1-206-443-9935
 - **Email:** housinginfo@lihi.org
-- **Website:** http://lihi.org/
-- **Additional Information:** Consultations and Urban Rest Stop services are free. Housing is not free. 
+- **Website:** <http://lihi.org/>
+- **Additional Information:** Consultations and Urban Rest Stop services are free. Housing is not free.
