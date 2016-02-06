@@ -11,7 +11,7 @@ address:
      - Client Services Center: 1016 E. Pike Street, 3rd Floor, Seattle, WA 98122
      - Meal Production Center, 206 S. Lucile Street, Seattle, WA 98108
      - Lifelong Thrift Store, 312 Broadway Ave E, Seattle WA 98102
-website: http://www.lifelongaidsalliance.org/
+website: <http://www.lifelongaidsalliance.org/>
 categories:
   - Dental Care
   - Sexual Health
@@ -38,7 +38,7 @@ features:
      - Client Services Center: 1016 E. Pike Street, 3rd Floor, Seattle, WA 98122
      - Meal Production Center, 206 S. Lucile Street, Seattle, WA 98108
      - Lifelong Thrift Store, 312 Broadway Ave E, Seattle WA 98102
-- **Phone Number:** 206 957-1600
+- **Phone Number:** 206-957-1600
    - Client Services Line: 206-957-1717
    - Send a secure message: <http://lifelongaidsalliance.org/contact/dental>.
 - **Website:** <http://www.lifelongaidsalliance.org/>
