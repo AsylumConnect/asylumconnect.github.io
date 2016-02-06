@@ -2,7 +2,7 @@
 name: YWCA
 address: 1118 Fifth Ave, First Floor, Seattle, WA 98101.
 lat: 47.60792
-lon: -122.33266
+long: -122.33266
 website: http://www.ywcaworks.org/
 categories:
   - Medical Clinics
