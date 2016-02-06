@@ -1,9 +1,7 @@
 ---
 name: Compass Housing Alliance
-address:
-   - Peter's Place (Shelter & Community Center): 901 Rainier Avenue S, Seattle, WA 98144
-   - Hygiene Center & Client Services Office: 77 South Washington Street, Seattle, WA 98104
-website: <http://www.compasshousingalliance.org/what-we-do-top/day-services/>
+address: 77 S. Washington St., 5th Floor, Seattle, WA 98104
+website: http://www.compasshousingalliance.org/what-we-do-top/day-services/
 categories:
   - Hygiene
   - Community Centers
@@ -17,9 +15,9 @@ features:
 - **Description:** The Compass Housing Alliance offers a Clients Services Office providing linkage to social services, a Hygiene Center, and a shelter and community center called Peter's Place.
 - **Population served:** All welcome.
 - **Address:**
+   - Main Office: 77 S. Washington St., 5th Floor, Seattle, WA 98104
    - Peter's Place (Shelter & Community Center): 901 Rainier Avenue S, Seattle, WA 98144
    - Hygiene Center & Client Services Office: 77 South Washington Street, Seattle, WA 98104
-- **Mailing Address:** 901 Rainier Ave S, Seattle, WA 98144
 - **Hours:**
    - Client Services Office: Mon-Fri 9am-4pm
    - Hygiene Center Mon-Fri 7am-2:30pm
