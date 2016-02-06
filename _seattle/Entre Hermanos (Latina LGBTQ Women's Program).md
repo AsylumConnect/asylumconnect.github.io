@@ -15,10 +15,10 @@ features:
   - free
   - translation
 ---
-- **Description:** This group provides a social space for women to come together and build community. Bring in community resource people to share information on a variety of topics including health, social justice, employment, housing and more. 
-- **Population served:** LGBTQ Latinas (18-years-old and up)
+- **Description:** This group provides a social space for women to come together, build community, and engage with a variety of topics such as health, social justice, employment, housing and more. 
+- **Population served:** LGBTQ Latinas, ages 18+
 - **Address:** 1105 23rd Ave., Seattle, WA 98122
-- **Hours:** Monday-Friday, 10am-5pm
+- **Hours:** Mon-Fri, 10am-5pm
 - **Phone Number:** 206-322-7700
 - **Email:** info@entrehermanos.org
 - **Website:** <http://entrehermanos.org/?page_id=42>
