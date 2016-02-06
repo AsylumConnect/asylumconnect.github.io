@@ -1,7 +1,7 @@
 ---
 name: New Boyz Club
-address: Location is kept confidential for security purposes. Complete the contact form on the website to learn the location: <http://olympiaftmgroup.webs.com/contactus.htm>
-website: <http://olympiaftmgroup.webs.com/>
+address: 
+website: http://olympiaftmgroup.webs.com/
 categories:
   - Support Groups
 supercategories:
