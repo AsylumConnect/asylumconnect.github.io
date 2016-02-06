@@ -2,7 +2,7 @@
 name: Neighborcare Health
 address: 1200 12th Avenue S, Suite #901, Seattle, WA 98144
 lat: 47.59285
-lon: -122.31579
+long: -122.31579
 website: https://www.neighborcare.org/
 categories:
   - Medical Clinics
