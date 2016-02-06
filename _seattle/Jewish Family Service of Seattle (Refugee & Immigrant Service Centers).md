@@ -1,7 +1,7 @@
 ---
 name: Jewish Family Service of Seattle (Refugee & Immigrant Service Centers)
 address: 15821 NE 8th Street, Suite 210, Bellevue, WA 98008
-website: http://www.jfsseattle.org/services/refugees-immigrants/
+website: <http://www.jfsseattle.org/services/refugees-immigrants/>
 categories:
   - Documentation
   - English Classes
