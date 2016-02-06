@@ -1,7 +1,9 @@
 ---
-name: Neighborcare Health.md
-address:1629 North 45th Street
-website:http://www.neighborcare.org/programs/homeless-youth-clinic
+name: Neighborcare Health
+address: 1200 12th Avenue S, Suite #901, Seattle, WA 98144
+lat: 47.59285
+lon: -122.31579
+website: https://www.neighborcare.org/
 categories:
   - Medical Clinics
 supercategories:
@@ -11,14 +13,12 @@ features:
   - free
   - translation
 ---
-- **Description:**Services available include: medical care, acupuncture, mental health counseling, drug and alcohol counseling, HIV counseling, 
-dental care (some Thursdays), yoga classes, naturopathy, meditation, massage, health education, social service referrals and outreach.
-- **Population served:**Youth and young adults who are currently homeless or have been homeless within the last 12 months. 18-25
-- **Address:** 1629 North 45th Street
-- **Mailing Address:** 1415 NE 43rd Street, Seattle, WA 98105
-- **Hours:**Wed-Thurs 6:00pm-9:00pm
+- **Description:** Neighborcare is the largest provider of primary medical, dental and behavioral health care services in Seattle focusing on low-income and uninsured families and individuals, seniors on fixed incomes, immigrants, and the homeless. 
+- **Population served:** All welcome. 
+- **Address:** 1200 12th Avenue S, Suite #901, Seattle, WA 98144
+- **Hours:** Wed-Thurs 6pm-9pm
 - **Phone Number:**206-633-7650
-- **Email:**info@neighborcare.org
-- **Website:**http://www.neighborcare.org/programs/homeless-youth-clinic
-- **Additional Information:** Drop-in only, no appointments.
-- **Non-English Services Available:**45+ languages and dialects, including Somali, Spanish, and Vietnamese.
+- **Email:** info@neighborcare.org
+- **Website:** <https://www.neighborcare.org/>
+- **Additional Information:** Homeless youth services are provided on a drop-in basis only. No appointments. 
+- **Non-English Services Available:** 45+ languages and dialects, including Somali, Spanish, and Vietnamese.
