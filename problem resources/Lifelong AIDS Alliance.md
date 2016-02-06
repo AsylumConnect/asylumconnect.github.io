@@ -1,6 +1,8 @@
 ---
 name: Lifelong AIDS Alliance
 address: 1016 East Pike Street, 3rd Floor, Seattle, WA 98122
+lat: 47.61426
+long: -122.31872
 website: http://www.lifelongaidsalliance.org/
 categories:
   - Dental Care
