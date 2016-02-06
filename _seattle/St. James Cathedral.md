@@ -1,7 +1,7 @@
 ---
 name: St. James Cathedral
 address: 804 Ninth Avenue, Seattle, WA 98104
-website: http://www.stjames-cathedral.org/immigrant/learn_english.html
+website: <http://www.stjames-cathedral.org/immigrant/learn_english.html>
 categories:
   - English Classes
 supercategories:
