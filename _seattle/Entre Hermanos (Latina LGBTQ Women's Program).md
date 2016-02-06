@@ -1,7 +1,7 @@
 ---
 name: Entre Hermanos (Latina LGBTQ Women's Program)
 address: 1105 23rd Ave., Seattle, WA 98122
-website: http://entrehermanos.org/?page_id=42
+website: <http://entrehermanos.org/?page_id=42>
 categories:
   - Sexual Health
   - Cultural Centers
