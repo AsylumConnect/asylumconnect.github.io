@@ -1,7 +1,7 @@
 ---
 name: Low Income Housing Institute
 address: 2407 1st Avenue, Seattle, WA 98121
-website: http://lihi.org/
+website: <http://lihi.org/>
 categories:
   - Housing
   - Hygiene
