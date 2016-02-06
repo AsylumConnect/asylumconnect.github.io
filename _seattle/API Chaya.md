@@ -1,7 +1,7 @@
 ---
 name: API Chaya
-address: Address is kept confidential for security purposes. Call the helpline or the toll free number to receive the location. 
-website: <http://www.apichaya.org>
+address:
+website: http://www.apichaya.org
 categories:
   - Private Counseling
   - Support Groups

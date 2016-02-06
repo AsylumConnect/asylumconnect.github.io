@@ -1,9 +1,11 @@
 ---
 name: DESC
 address: 509 Third Avenue Seattle, WA 98104
-website: <http://www.desc.org/entry.html>
+lat: 47.60224
+long: -122.33122
+website: http://www.desc.org/entry.html
 categories:
-  - Housing 
+  - Housing
   - Food
   - Hygiene
   - Employment

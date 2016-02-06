@@ -102,11 +102,11 @@ categories: [housing, food, hygiene, computers, employment, mail, recreation]
         <!-- Google Maps -->
         {% if resource.address %}
         <div class="mapping">
-          <div class="map-point" address="{{ resource.address }}">
+          <div class="map-point" address="{{ resource.address }}"{% if resource.lat %} lat="{{ resource.lat }}" long="{{ resource.long }}"{% endif %}>
             <b><a href="{{ resource.website }}">{{ resource.name }}</a></b><br>
             {{ resource.address }}<br>
             <a href="#{{ resource.name | downcase | replace: ' ', '-' }}">See More Info</a><br>
-            
+
             {% for group in resource.supercategories%}
             <span class="icon-{{ group | downcase | replace: ' ', '-' }} btn-icon small"></span>
             {% endfor %}

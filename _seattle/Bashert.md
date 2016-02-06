@@ -1,7 +1,9 @@
 ---
 name: Bashert (Jewish Federation of Greater Seattle)
 address: 2031 Third Avenue, Seattle, WA 98121-2412
-website: <http://www.jewishinseattle.org/connect/peers/lgbtq>
+lat: 47.61286
+long: -122.34205
+website: http://www.jewishinseattle.org/connect/peers/lgbtq
 categories:
   - Community Centers
 supercategories:

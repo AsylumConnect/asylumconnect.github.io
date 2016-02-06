@@ -1,7 +1,9 @@
 ---
 name: Gender Justice League
-address: 1433 12th Ave #1A Seattle, WA 98122
-website: <http://www.genderjusticeleague.org/contact-us/>
+address: 1433 12th Ave, Seattle, WA 98122
+lat: 47.61394
+long: -122.31709
+website: http://www.genderjusticeleague.org/contact-us/
 categories:
   - Sexual Health
   - Community Centers

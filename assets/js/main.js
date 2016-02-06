@@ -2,6 +2,7 @@
 
 var categories = [];
 var features = [];
+var markers = [];
 
 var buttonClick = function (button, list) {
   $(button).click(function() {
@@ -36,8 +37,6 @@ var displayResources = function() {
 
 var geocoder;
 var map;
-var markers = [];
-var visibleMarkers = [];
 var infoWindow;
 
 
@@ -52,8 +51,11 @@ var hideAllMapPoints = function() {
 
 var displaySelectedMapPoints = function(toDisplay) {
   toDisplay.find('.map-point').each(function() {
-      var address = $(this).attr('address');
-      markers[address].setVisible(true);
+    var address = $(this).attr('address');
+    console.log(markers);
+    console.log(address);
+    console.log(markers[address]);
+    markers[address].setVisible(true);
   });
 }
 
@@ -69,22 +71,44 @@ function initMap() {
   $('.map-point').each(function() {
     var that = $(this);
     var address = that.attr('address');
-    geocoder.geocode({'address' : address}, function(results, status) {
-      if (status === google.maps.GeocoderStatus.OK) {
-        var marker = new google.maps.Marker({
-          map: map,
-          position: results[0].geometry.location
-        });
+    var lat = that.attr('lat');
+    var long = that.attr('long');
+    // if lat and long are defined, create marker using coords
+    if (lat && long) {
+      var marker = new google.maps.Marker({
+        map: map,
+        position: {
+          lat : parseFloat(lat),
+          lng : parseFloat(long)
+        }
+      });
+      google.maps.event.addListener(marker, 'click', function(){
+        infoWindow.setContent(that.html());
+        infoWindow.open(map, marker);
+      });
 
-        google.maps.event.addListener(marker, 'click', function(){
-          infoWindow.setContent(that.html());
-          infoWindow.open(map, marker);
-        });
+      markers[address] = marker;
+      markers[address].setVisible(false);
+    }
+    // else, geocode address to create marker
+    else {
+      geocoder.geocode({'address' : address}, function(results, status) {
+        if (status === google.maps.GeocoderStatus.OK) {
+          var marker = new google.maps.Marker({
+            map: map,
+            position: results[0].geometry.location
+          });
 
-        markers[address] = marker;
-        markers[address].setVisible(false);
-      }
-    });
+          google.maps.event.addListener(marker, 'click', function(){
+            infoWindow.setContent(that.html());
+            infoWindow.open(map, marker);
+          });
+
+          markers[address] = marker;
+          markers[address].setVisible(false);
+        }
+      });
+    }
   });
 }
 

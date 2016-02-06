@@ -1,7 +1,9 @@
 ---
 name: Teen Feed
 address: 4740 B University Way NE, Seattle, WA 98105
-website: <http://www.teenfeed.org/>
+lat: 47.66430
+long: -122.31273
+website: http://www.teenfeed.org/
 categories:
   - Documentation
   - Food
