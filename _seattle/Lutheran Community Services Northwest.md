@@ -1,7 +1,7 @@
 ---
 name: Lutheran Community Services Northwest
 address: 115 NE 100th St., Suite 200 Seattle, WA 98125
-website: http://www.refugeechildren.net/about-our-program/
+website: <http://www.refugeechildren.net/about-our-program/>
 categories:
   - Medical Clinics
   - Legal Aid
