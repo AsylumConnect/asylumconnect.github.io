@@ -1,6 +1,8 @@
 ---
 name: Compass Housing Alliance
 address: 77 S. Washington St., 5th Floor, Seattle, WA 98104
+lat: 47.60071
+long: -122.33525
 website: http://www.compasshousingalliance.org/what-we-do-top/day-services/
 categories:
   - Hygiene
