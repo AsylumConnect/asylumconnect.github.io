@@ -1,6 +1,6 @@
 ---
 name: BiNet
-website: http://www.binetseattle.org/index.html
+website: <http://www.binetseattle.org/index.html>
 categories:
   - Support Groups
 supercategories:
