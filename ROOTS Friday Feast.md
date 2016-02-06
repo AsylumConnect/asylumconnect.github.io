@@ -1,7 +1,7 @@
 ---
 name: ROOTS Friday Feast
 lat: 47.65924
-lon: -122.31236
+long: -122.31236
 address: 1415 NE 43rd Street, Seattle, WA 98105
 website: http://www.rootsinfo.org/friday-feast/ 
 categories:
