@@ -1,7 +1,7 @@
 ---
 name: Tacoma Rainbow Center
 address:  2215 Pacific Avenue, Tacoma, WA 98402
-website: http://www.rainbowcntr.org/
+website: <http://www.rainbowcntr.org/>
 categories:
   - Community Centers
 supercategories:
