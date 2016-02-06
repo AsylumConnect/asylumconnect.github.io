@@ -1,7 +1,7 @@
 ---
 name: Lambert House
 address: 1818 15th Avenue on Capitol Hill in Seattle (between E Howell & E Denny Way)
-website: http://www.lamberthouse.org/index.html
+website: <http://www.lamberthouse.org/index.html>
 categories:
   - Computers
   - Libraries
