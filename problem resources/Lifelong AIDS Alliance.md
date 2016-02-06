@@ -1,16 +1,6 @@
 ---
 name: Lifelong AIDS Alliance
-address:
-   - Aberdeen: 110 West Market Street, Suite 105, Aberdeen, WA 98520
-   - Bellingham: 115 Unity Street, Suite 302, Bellingham, WA 98225
-   - Bremerham: 115 Unity Street, Suite 302, Bellingham, WA 98225
-   - Everett: 3305 Oakes Avenue, Everett, WA 98201
-   - Longview 1338 Commerce Avenue, Suite 212, Longview, WA 98632
-   - Seattle:
-     - Meal Pick-Up Center: 1161 11th Avenue, Seattle, WA 98122
-     - Client Services Center: 1016 E. Pike Street, 3rd Floor, Seattle, WA 98122
-     - Meal Production Center, 206 S. Lucile Street, Seattle, WA 98108
-     - Lifelong Thrift Store, 312 Broadway Ave E, Seattle WA 98102
+address: 1016 East Pike Street, 3rd Floor, Seattle, WA 98122
 website: http://www.lifelongaidsalliance.org/
 categories:
   - Dental Care
