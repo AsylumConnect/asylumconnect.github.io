@@ -193,6 +193,9 @@ h4 {
   padding-top: .75em;
   cursor: pointer;
   cursor: hand;
+  :hover {
+    color:#2a7ae2;
+  }
 }
 
 .resource-name {
