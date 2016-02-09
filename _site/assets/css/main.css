@@ -556,7 +556,9 @@ h4 {
   display: none; }
 
 .resource-header {
-  padding-top: .75em; }
+  padding-top: .75em;
+  cursor: pointer;
+  cursor: hand; }
 
 .resource-name {
   display: inline-block; }

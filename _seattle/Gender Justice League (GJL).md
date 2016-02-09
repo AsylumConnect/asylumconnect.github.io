@@ -6,6 +6,7 @@ long: -122.31709
 website: http://www.genderjusticeleague.org/contact-us/
 categories:
   - Sexual Health
+  - Trans Health
   - Community Centers
 supercategories:
   - Education
@@ -14,7 +15,7 @@ features:
   - confidential
   - free
 ---
-- **Description:** Gender Justice League is a Washington State trans and allied activist collective headquartered in Seattle. They provide information and referrals on the trans community, connections to local resources, social and community events, leadership training for trans* people and our allies, information about health insurance coverage
+- **Description:** Gender Justice League is a Washington State trans and allied activist collective headquartered in Seattle. They provide information and referrals on the trans community, connections to local resources, social and community events, leadership training for trans* people and allies, and information about health insurance coverage.
 - **Population served:** Transgender individuals and allies of all ages.
 - **Address:** 1433 12th Ave #1A Seattle, WA 98122
 - **Hours:** Hours vary. See meetings & events calendar available online at: <http://www.genderjusticeleague.org/calendar/>

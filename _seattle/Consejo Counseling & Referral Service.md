@@ -18,11 +18,11 @@ features:
   - translation
 ---
 - **Description:** Consejo provides services addressing mental health, domestic violence, sexual assault, substance abuse treatment, youth crisis, and housing. Consejo specializes in providing culturally competent services to the monolingual Latino community.
-- **Population served:** Underserved Latino communities with a focus on families, all ages.
+- **Population served:** Underserved Latino communities with a focus on families. All ages.
 - **Address:** 3808 S Angeline Street, Seattle WA, 98118
 - **Hours:** Mon-Fri 8AM to 5PM
 - **Phone Number:** 206-461-4880
-   - After Hours & Weekend Crisis Line: 206-461-3222.
+   - **After Hours & Weekend Crisis Line:** 206-461-3222.
 - **Email:** Contact form: <http://consejocounseling.org/contact/get-help/>
 - **Website:** <http://consejocounseling.org/>
 - **Non-English Services Available:** Spanish
