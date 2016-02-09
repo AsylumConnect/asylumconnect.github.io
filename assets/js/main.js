@@ -13,7 +13,6 @@ var buttonClick = function (button, list) {
     } else {
       list.push('.' + item);
     }
-    console.log(list);
     displayResources();
   });
 };
@@ -52,9 +51,6 @@ var hideAllMapPoints = function() {
 var displaySelectedMapPoints = function(toDisplay) {
   toDisplay.find('.map-point').each(function() {
     var address = $(this).attr('address');
-    console.log(markers);
-    console.log(address);
-    console.log(markers[address]);
     markers[address].setVisible(true);
   });
 }
