@@ -1,3 +1,4 @@
+---
 name: Washington Gender Alliance
 address: 910 14th St, Bellingham, WA 98225
 lat: 48.725119
