@@ -1,3 +1,4 @@
+---
 name: Seattle Frontrunners
 address: P.O. Box 31952, Seattle, WA 98103
 lat: 47.660009
