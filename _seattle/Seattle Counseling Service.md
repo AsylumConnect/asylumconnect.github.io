@@ -1,3 +1,4 @@
+---
 name: Seattle Counseling Service
 address: 1216 Pine Street, Suite 300, Seattle WA 98101
 lat: 47.615431
