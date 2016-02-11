@@ -1,3 +1,4 @@
+---
 name: Seattle Area Support Group & Community Center
 address: 115 15th Ave E, Suite 201, Seattle, WA 98112
 lat: 47.618991
