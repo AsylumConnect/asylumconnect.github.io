@@ -8,8 +8,11 @@ categories:
   - Food
   - Employment
   - Support Groups
+  - Community Centers
 supercategories:
   - Education
+  - Mental Health
+  - Community
 features:
   - confidential
   - free

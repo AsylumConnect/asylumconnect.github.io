@@ -7,11 +7,13 @@ website: https://www.gaycity.org/
 categories:
   - Sexual Health
   - Computers
+  - LGBT Centers
   - Libraries
   - Recreation
 supercategories:
   - Medical
   - Community
+  - Education
 features:
   - confidential
   - free
@@ -23,4 +25,4 @@ features:
 - **Phone Number:** 206-860-6969
 - **Email:** info@gaycity.org
 - **Website:** <https://www.gaycity.org/>
-- **Additional Information:** While Gay City Health Project emphasizes services to gay men, all genders and orientations are welcome. 
+- **Additional Information:** While Gay City Health Project emphasizes services to gay men, all genders and orientations are welcome.

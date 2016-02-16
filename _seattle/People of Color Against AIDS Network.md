@@ -14,7 +14,7 @@ features:
   - confidential
   - free
 ---
-- **Description:** POCAAN is a multicultural, multi-social service agency serving marginalized communities in Seattle and greater King County.  For many years our work has been rooted in HIV/AIDS prevention, but it has grown with the understanding that related issues such as substance abuse, incarceration, homelessness, sexually transmitted diseases, racism, sexism and homophobia also contribute to community marginalization and health disparities. 
+- **Description:** POCAAN is a multicultural, multi-social service agency serving marginalized communities in Seattle and greater King County. POCAAN is committed to providing comprehensive, multicultural awareness and prevention messages aimed at addressing health disparities experienced in diverse communities.
 - **Population served:** African American LGBTQ individuals of all genders and orientations, ages 16+
 - **Address:** 1820 E. Pine Street, Suite A, Seattle, WA 98122
    - South Office: 4437 Rainier Avenue S., Seattle, WA 98118

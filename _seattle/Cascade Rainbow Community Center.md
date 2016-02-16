@@ -11,10 +11,10 @@ features:
   - free
   - translation
 ---
-- **Description:** Cascade aims to build hope and understanding; promote equality, cohesion, and visibility in the community; and elicit action and spread truth through education. 
+- **Description:** Cascades Rainbow Center is home to the largest collection of LGBT books, newspapers, and zines in Skagit County. Search the library catalog [here](http://cascaderainbow.org/catalog).
 - **Population served:** All welcome.
 - **Address:** 508 N 18th Street, Mount Vernon, WA 98273
 - **Hours:** Fri 6:30pm-10:30pm
 - **Phone Number:** 360-840-8499
 - **Website:** <http://cascaderainbow.org/>
-- **Non-English Services Available:** Books in languages other than English are available. 
+- **Non-English Services Available:** Books in languages other than English are available.
