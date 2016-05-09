@@ -219,3 +219,15 @@ h4 {
   height: 100%;
   width: 100%;
 }
+
+/** FEEDBACK BUTTON **/
+#feedback-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  margin: 1.5em;
+  background-color: #6987bf;
+  color: white;
+
+}
