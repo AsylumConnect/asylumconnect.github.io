@@ -28,5 +28,5 @@ features:
 - **Phone Number:** (206) 694-5713
    - En Español llame: (206) 694-5755
 - **Email:** RICP@lcsnw.org. Alternatively, use the contact form [here](http://www.lcsnw.org/contact.html).
-- **Website:** <http://www.refugeechildren.net/about-our-program/>
+- **Website:** <https://refugeechildren.net/>
 - **Non-English Services Available:** Spanish
