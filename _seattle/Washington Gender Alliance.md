@@ -26,4 +26,4 @@ features:
   - *Walla Walla:* Thurs 7:30pm-9pm
 - **Phone Number:** 360-445-2411
 - **Website:** <http://www.washingtongenderalliance.com/>
-- **Additional Information:** For more information about meeting times and locations please visit: <http://www.washingtongenderalliance.com/meetings.html>.
+- **Additional Information:** For more information and updates request to join the Washington Gender Alliance Facebook group at: <https://www.facebook.com/groups/WashingtonGenderAlliance/>.
