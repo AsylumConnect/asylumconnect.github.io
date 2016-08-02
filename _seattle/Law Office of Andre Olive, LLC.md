@@ -1,5 +1,5 @@
 ---
-name: Law Office of Andre Olivie, PLLC
+name: Law Office of Andre Olivie, LLC
 address: 1633 Bellevue Ave, Seattle, WA 98122
 lat: 47.61615
 long: -122.32713
