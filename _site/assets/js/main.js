@@ -55,6 +55,10 @@ var displaySelectedMapPoints = function(toDisplay) {
   });
 }
 
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-76058112-1'}, 'google_translate_element');
+}
+
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 47.608, lng: -122.335},

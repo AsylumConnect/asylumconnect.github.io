@@ -161,15 +161,18 @@ h4 {
 
 .main .header {
   padding-top: 20px;
+  overflow: hidden;
+
   #logo {
     display: inline-block;
+    float: left;
   }
   #links {
     display: inline-block;
     letter-spacing: 2px;
     text-align: right;
     float: right;
-    margin-top: 50px;
+    margin-top: 40px;
     a {
       padding: .75em 1em;
       text-decoration: none;
@@ -215,19 +218,25 @@ h4 {
   // height: 100%;
   width: 41.5%;
 }
+
 #map {
   height: 100%;
   width: 100%;
 }
 
 /** FEEDBACK BUTTON **/
-#feedback-button {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 100;
-  margin: 1.5em;
-  background-color: #6987bf;
-  color: white;
+.left-header {
+  float: right;
+}
 
+.translate {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  font-size: 10px;
 }
