@@ -40,7 +40,9 @@ var infoWindow;
 
 
 var hideAllMapPoints = function() {
-  infoWindow.close();
+  if (infoWindow) {
+    infoWindow.close();
+  }
   for (var key in markers) {
     if (markers.hasOwnProperty(key)) {
       markers[key].setVisible(false);
