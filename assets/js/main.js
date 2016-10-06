@@ -19,7 +19,9 @@ var buttonClick = function (button, list) {
 
 var displayResources = function() {
   $('.resource').removeClass("active"); // hide all resources
-  hideAllMapPoints();
+  if (map) {
+    hideAllMapPoints();
+  }
   var areSelectedCategories = categories.length > 0;
 
   if (areSelectedCategories || features.length > 0) {
@@ -30,7 +32,9 @@ var displayResources = function() {
     }
 
     toDisplay.addClass("active"); // shows appropriate resources e.g., $('.resource.translation').filter('.dental-care, .hygiene')')
-    displaySelectedMapPoints(toDisplay);
+    if (map) {
+      displaySelectedMapPoints(toDisplay);
+    }
   }
 }
 
